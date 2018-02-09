@@ -9,6 +9,8 @@ const Header = () => {
             <IndexLink to="/about" activeClassName="active">About</IndexLink>
             {" | "}
             <IndexLink to="/courses" activeClassName="active">Courses</IndexLink>
+            {" | "}
+            <IndexLink to="/location" activeClassName="active">GeoLocation</IndexLink>
         </nav>
     );
 };
