@@ -5,7 +5,7 @@ import HomePage from './components/home/HomePage';
 import AboutPage from './components/about/AboutPage';
 import CoursesPage from './components/course/CoursesPage';
 import GeoLocation from './components/location/GeoLocation';
-import ContactUs from './components/contact/ContactUs';
+import ContactUs from './components/contact/ContactUs'; 
 
 export default (
     <Route path="/" component={App}>

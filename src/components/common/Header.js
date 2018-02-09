@@ -13,7 +13,7 @@ const Header = () => {
             <IndexLink to="/location" activeClassName="active">GeoLocation</IndexLink>
             {" | "}
             <IndexLink to="/contact" activeClassName="active">Contact Us</IndexLink>
-          </nav>
+          </nav> 
     );
 };
 
