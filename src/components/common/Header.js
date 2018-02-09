@@ -11,7 +11,9 @@ const Header = () => {
             <IndexLink to="/courses" activeClassName="active">Courses</IndexLink>
             {" | "}
             <IndexLink to="/location" activeClassName="active">GeoLocation</IndexLink>
-        </nav>
+            {" | "}
+            <IndexLink to="/contact" activeClassName="active">Contact Us</IndexLink>
+          </nav> 
     );
 };
 

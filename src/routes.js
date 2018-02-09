@@ -5,6 +5,7 @@ import HomePage from './components/home/HomePage';
 import AboutPage from './components/about/AboutPage';
 import CoursesPage from './components/course/CoursesPage';
 import GeoLocation from './components/location/GeoLocation';
+import ContactUs from './components/contact/ContactUs'; 
 
 export default (
     <Route path="/" component={App}>
@@ -12,5 +13,6 @@ export default (
         <Route path="about" component={AboutPage} />
         <Route path="courses" component={CoursesPage} />
         <Route path="location" component={GeoLocation} />
+        <Route path="Contact" component={ContactUs} />
     </Route>
 );
