@@ -13,3 +13,8 @@ a.active {
 nav {
     padding-top: 20px;
 }
+
+span {
+  font-size: 22px;
+  padding: 0px 11px;
+}
